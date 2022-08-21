@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: beige;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    height: 80px;
+}
+#nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    list-style: none;
+    
+}
+#nav-bar ul li{
+    margin-right: 50px;   
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 6px 15px;
+}
+#nav-bar ul li a:hover{
+    background: black;
+    border-radius: 20px;
+    color: gold;
+}
+.title{
+    margin-left: 60px;
+}
+.obey{
+    color: rgb(196, 31, 31);
+}
+form{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+}
+.formhead{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+input{
+    margin: 10px;
+    width: 300px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: gold;
+}
+input:focus{
+    transform: scale(1.1) ease;
+    background: black;
+}
+input:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.btn-head{
+    width: 200px;
+    height: 30px;
+    margin-left: 60px;
+    background: gold;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.btn-head:hover{
+    background: black;
+    color: gold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    flex-direction: column;
+    padding: 100px 200px 0px 200px;
+}
+.icon-style{
+    transform: scale(4);
+    padding: 20px 0px 14px 0px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    right: 45px;
+    bottom: 35px;
+}
+#primium{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+#shipping{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+#battery{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.video{
+    width: 600px;
+    height:400px;
+    margin-left: 340px;
+
+}
+#video{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#box-one{
+    margin: 10px;
+    border: 3px solid gold;
+}
+#box-one:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+#box-one button{
+    width: 100px;
+    height: 25px;
+    background: gold;
+    border: none;
+    border-radius: 3px;
+
+}
+#box-one div{
+    padding: 20px 0px 0px 0px;
+}
+#box-two{
+    margin: 10px;
+    border: 3px solid gold;
+}
+#box-two:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+#box-two button{
+    width: 100px;
+    height: 25px;
+    background: gold;
+    border: none;
+    border-radius: 3px;
+
+}
+#box-two div{
+    padding: 20px 0px 0px 0px;
+}
+#box-three{
+    margin: 10px;
+    border: 3px solid gold;
+}
+#box-three:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+#box-three button{
+    width: 100px;
+    height: 25px;
+    background: gold;
+    border: none;
+    border-radius: 3px;
+
+}
+#box-three div{
+    padding: 20px 0px 0px 0px;
+}
+nav{
+    background-color: rgb(255, 223, 42);
+}
